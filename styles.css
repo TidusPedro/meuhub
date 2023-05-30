@@ -1,0 +1,58 @@
+body{
+    background-color: #212121;
+    max-width: 1280px;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+
+}
+
+
+#dov{
+display: flex;
+justify-content: center;
+}
+
+#dov{
+    transform: scale(1.10);
+    cursor: pointer;
+    transition: 2.5s ease-in-out;
+}
+
+main{
+    padding: 25px;
+    margin: 25px;
+}
+
+main .informacoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 20px;
+}
+
+main .insta, main .linke, main .githu{
+    background-color: #d8e3ec;
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .titulo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 40px;
+}
+
